@@ -1,39 +1,49 @@
 
-# Day 2 — Gradient Descent
+# Day 2 — How Neural Networks Learn: Cost Functions & Gradient Descent
 
-**Sources:**
+## Topics Covered
 
-- 3Blue1Brown — [Gradient descent, how neural networks learn](https://www.3blue1brown.com/lessons/gradient-descent/)
-- YouTube: https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=5
+* Cost functions — measuring how wrong a network's output is
+* Gradient descent — how a network minimizes that error
+* Model comparison: Logistic Regression vs Decision Tree vs Random Forest
+* Evaluation: confusion matrix, train/test split, overfitting check
 
-## What I learned
+## Key Concept: Cost Functions & Gradient Descent
 
-### Cost function
+**What makes ML different from traditional programming**
+You don't write explicit instructions for the task. For digit recognition, you never write an algorithm that directly recognizes digits — instead, you write an algorithm that takes labeled example images and adjusts the network's weights and biases so it performs better on those examples.
 
-What makes machine learning different from traditional programming is that you don't write explicit instructions for the task. For digit recognition, you never write an algorithm that directly recognizes digits — instead, you write an algorithm that takes in labeled example images and adjusts the network's weights and biases so it performs better on those examples.
+The weights represent the strength of the connections between each neuron in one layer and the next. Each bias indicates whether its neuron tends to be active or inactive by default.
 
-The weights represent the strength of the connections between each neuron in one layer and each neuron in the next. Each bias indicates whether its neuron tends to be active or inactive by default.
+**The cost function**
+We feed labeled data into the network and compare its output to the expected output (both values between 0 and 1) by squaring the difference. A correct output gives a small value; a wrong one gives a large value. Summing this across all training examples gives the cost function — a single number describing how badly the network is performing right now.
 
-We feed the labeled data into the network, and it produces an output. To measure how good or bad that output is, we take the difference between the expected output and the actual output (a value between 0 and 1) and square it. When the output is close to correct, this value is small. When it's wrong, the value is large. Summing this across all training examples gives the cost function — a single number describing how badly the network is performing.
-
-### Gradient descent
-
-Gradient descent is how we find the minimum of the cost function. The gradient of the cost function is a vector that points in the direction of steepest increase — so moving in the *negative* direction of the gradient tells us how to adjust the weights and biases to decrease the cost.
+**Gradient descent**
+Gradient descent is how the network finds a minimum of the cost function. The gradient is a vector pointing in the direction of steepest *increase* — so moving in the negative direction of the gradient tells us how to adjust every weight and bias to decrease the cost.
 
 Each component of the negative gradient vector tells us two things:
 
-- **Sign** — whether that specific weight/bias should be nudged up or down
-- **Magnitude** — how much that change matters relative to the others (larger magnitude = more impactful change)
+* **Sign** — whether that weight/bias should be nudged up or down
+* **Magnitude** — how much that change matters relative to the others
 
-Using labeled training data lets the network repeatedly compute this gradient and move toward a local minimum of the cost function — this is what "learning" actually means for a neural network.
+**Why this matters for training**
+By repeatedly computing this gradient on labeled training data, the network incrementally moves toward a local minimum of the cost function. This iterative nudging — not any explicit rule-writing — is what "learning" means for a neural network.
 
-## Key terms
+## Practical Work
 
-- **Cost function**: measures how wrong the network's output is compared to the expected output
-- **Gradient descent**: the algorithm for finding a local minimum of the cost function by repeatedly stepping in the direction of the negative gradient
-- **Local minimum**: a point where the cost is locally as low as possible — not necessarily the lowest possible cost overall
-- **Weights/biases**: the adjustable parameters of the network that gradient descent tunes
+* Compared three models on the same dataset: `LogisticRegression`, `DecisionTreeClassifier`, `RandomForestClassifier`
+* Used a proper `train_test_split` with a fixed `random_state` to check for overfitting
+* Plotted a confusion matrix for the best-performing model
+* Watched 3Blue1Brown's gradient descent lesson for the intuition behind `.fit()`
+
+## Takeaway
+
+Everything a model does when you call `.fit()` comes down to this loop: measure how wrong it is (cost function), figure out which direction reduces that wrongness (gradient), and nudge the weights that way. Understanding this made model comparison today feel less like "trying different sklearn classes" and more like watching different optimization strategies converge on the same underlying problem.
 
 ## Questions I still have
 
-- How exactly is the gradient computed for every weight/bias at once? (this is backpropagation — next video)
+* How exactly is the gradient computed for every weight/bias simultaneously? (this is backpropagation — next video)
+
+---
+
+*Part of my **AI/ML learning journey** — Day 2*
