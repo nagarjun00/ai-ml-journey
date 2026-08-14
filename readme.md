@@ -41,10 +41,11 @@ Currently in  **Phase 1-2** .
 
 ## Progress log
 
-| Day | Focus                                                                                                    | Notes                                   |
-| --- | -------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 1   | Environment setup, first sklearn model                                                                   | [notes](notes/)                          |
-| 2   | Gradient descent, model comparison (Logistic Regression, Decision Tree, Random Forest), confusion matrix | [notes](notes/day02-gradient-descent.md) |
+| Day | Focus                                                                                                                                                          | Notes                                   |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| 1   | Environment setup, first sklearn model                                                                                                                         | [notes](\notes\day1.md)                  |
+| 2   | Gradient descent, model comparison (Logistic Regression, Decision Tree, Random Forest), confusion matrix                                                       | [notes](notes/day02-gradient-descent.md) |
+| 3   | `Backpropagation — how weight/bias/activation changes reduce cost, propagating backward through layers, mini-batches and Stochastic Gradient Descent (SGD)` | [notes](notes/day03-backpropagation.md)  |
 
 *(updated as I go)*
 
