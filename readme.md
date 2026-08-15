@@ -41,11 +41,12 @@ Currently in  **Phase 1-2** .
 
 ## Progress log
 
-| Day | Focus                                                                                                                                                          | Notes                                   |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 1   | Environment setup, first sklearn model                                                                                                                         | [notes](\notes\day1.md)                  |
-| 2   | Gradient descent, model comparison (Logistic Regression, Decision Tree, Random Forest), confusion matrix                                                       | [notes](notes/day02-gradient-descent.md) |
-| 3   | `Backpropagation — how weight/bias/activation changes reduce cost, propagating backward through layers, mini-batches and Stochastic Gradient Descent (SGD)` | [notes](notes/day03-backpropagation.md)  |
+| Day | Focus                                                                                                                                                          | Notes                  |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| 1   | Environment setup, first sklearn model                                                                                                                         | [notes](notes\day1.md)  |
+| 2   | Gradient descent, model comparison (Logistic Regression, Decision Tree, Random Forest), confusion matrix                                                       | [notes](\notes\day2.md) |
+| 3   | `Backpropagation — how weight/bias/activation changes reduce cost, propagating backward through layers, mini-batches and Stochastic Gradient Descent (SGD)` | [notes](\notes\day3.md) |
+| 4   | Backprop calculus, intro to LLMs, pre-training vs RLHF, transformer architecture (embeddings, attention, feed-forward)                                         | [notes](\notes\day4.md) |
 
 *(updated as I go)*
 
