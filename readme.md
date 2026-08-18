@@ -47,6 +47,8 @@ Currently in  **Phase 1-2** .
 | 2   | Gradient descent, model comparison (Logistic Regression, Decision Tree, Random Forest), confusion matrix                                                       | [notes](\notes\day2.md) |
 | 3   | `Backpropagation — how weight/bias/activation changes reduce cost, propagating backward through layers, mini-batches and Stochastic Gradient Descent (SGD)` | [notes](\notes\day3.md) |
 | 4   | Backprop calculus, intro to LLMs, pre-training vs RLHF, transformer architecture (embeddings, attention, feed-forward)                                         | [notes](\notes\day4.md) |
+| 5   | GPT architecture, tokens, embeddings, attention vs MLP blocks, unembedding, softmax                                                                            | [notes](notes/day5.md)  |
+| 6   | Attention in Transformers, queries, keys, values, attention scores, softmax, masking, and multi-head attention                                                 | [notes](notes/day6.md)  |
 
 *(updated as I go)*
 
