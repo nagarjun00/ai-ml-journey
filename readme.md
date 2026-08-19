@@ -49,6 +49,7 @@ Currently in  **Phase 1-2** .
 | 4   | Backprop calculus, intro to LLMs, pre-training vs RLHF, transformer architecture (embeddings, attention, feed-forward)                                         | [notes](\notes\day4.md) |
 | 5   | GPT architecture, tokens, embeddings, attention vs MLP blocks, unembedding, softmax                                                                            | [notes](notes/day5.md)  |
 | 6   | Attention in Transformers, queries, keys, values, attention scores, softmax, masking, and multi-head attention                                                 | [notes](notes/day6.md)  |
+| 7   | MLPs in Transformers, factual associations, neurons, up/down projections, activation functions, parameter scale, and superposition                             | [notes](notes/day7.md)  |
 
 *(updated as I go)*
 

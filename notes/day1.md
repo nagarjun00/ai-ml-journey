@@ -1,4 +1,3 @@
-
 # Day 1 — Neural Network Foundations: Why ReLU Beats Sigmoid
 
 ## Topics Covered
