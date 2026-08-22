@@ -50,6 +50,7 @@ Currently in  **Phase 1-2** .
 | 5   | GPT architecture, tokens, embeddings, attention vs MLP blocks, unembedding, softmax                                                                            | [notes](notes/day5.md)  |
 | 6   | Attention in Transformers, queries, keys, values, attention scores, softmax, masking, and multi-head attention                                                 | [notes](notes/day6.md)  |
 | 7   | MLPs in Transformers, factual associations, neurons, up/down projections, activation functions, parameter scale, and superposition                             | [notes](notes/day7.md)  |
+| 8   | Compression & cross-entropy deep dive, language trees via zipping, Shannon entropy, why cross-entropy beats MSE, knowledge distillation                        | [notes](notes/day8.md)  |
 
 *(updated as I go)*
 
