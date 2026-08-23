@@ -51,6 +51,7 @@ Currently in  **Phase 1-2** .
 | 6   | Attention in Transformers, queries, keys, values, attention scores, softmax, masking, and multi-head attention                                                 | [notes](notes/day6.md)  |
 | 7   | MLPs in Transformers, factual associations, neurons, up/down projections, activation functions, parameter scale, and superposition                             | [notes](notes/day7.md)  |
 | 8   | Compression & cross-entropy deep dive, language trees via zipping, Shannon entropy, why cross-entropy beats MSE, knowledge distillation                        | [notes](notes/day8.md)  |
+| 9   | CLIP, diffusion models (DDPM/DDIM), DALL-E 2 pipeline, conditioning, classifier-free guidance, negative prompts                                                | [notes](notes/day9.md)  |
 
 *(updated as I go)*
 
