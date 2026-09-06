@@ -14,3 +14,20 @@ Course: https://mylearn.oracle.com/ou/course/oracle-agentic-ai-foundations-2026/
 | [Introduction to MCP](module-3-mcp.md)                            | ✅ Completed        | Standardizing how agents connect to tools and external data sources                                                     |
 | [OpenAI Responses API and Agents SDK Basics](module-4.md)         | <br /> ✅ Completed | OpenAI agent stack, Responses API, Agents SDK, tools and function calling, multi-agent handoffs, and guardrails         |
 | [Agentic AI for OCI Enterprise AI](module-5-oci-enterprise-ai.md) | ✅ Completed        | Agent lifecycle and runtime, OCI Enterprise AI Platform, Enterprise AI Agents, building blocks, deployment, and scaling |
+
+**Issuer:** Oracle
+**Credential ID:** `102976341AAI26OFA`
+**Issued:** September 6, 2026
+
+### Skills Covered
+
+- Core AI agent concepts
+- LangChain
+- Model Context Protocol (MCP)
+- OpenAI agent development
+- OCI Enterprise AI Agents
+- Oracle AI Database for agentic AI
+
+### Verification
+
+[Verify Oracle Credential](https://catalog-education.oracle.com/pls/certview/sharebadge?id=0E098BA276A3B48C28EFC57756CBDA49FBEB2710F0C79386CB337DB769FB0058)
